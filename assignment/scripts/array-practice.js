@@ -127,8 +127,10 @@ for (let i = 0; i < favFoods.length; i++) {
         arrToString += favFoods[i];
     }
 }
-
 console.log('4.g. Convert to string and include "add" in between each word:', arrToString);
+
+let arrToString2 = favFoods.join(' and ');
+console.log('4.g. Second Method', arrToString2);
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
